@@ -1,0 +1,24 @@
+{
+  "name": "expo-shizuku",
+  "version": "0.1.0",
+  "description": "Expo native module for Shizuku privileged APK installation on Android",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qweered/expo-shizuku"
+  },
+  "keywords": [
+    "expo",
+    "react-native",
+    "shizuku",
+    "android",
+    "apk",
+    "installer"
+  ],
+  "peerDependencies": {
+    "expo": ">=51.0.0",
+    "react-native": ">=0.73.0"
+  }
+}

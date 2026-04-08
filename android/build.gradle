@@ -1,0 +1,24 @@
+plugins {
+  id 'com.android.library'
+  id 'expo-module-gradle-plugin'
+}
+
+group = 'dev.sourcium'
+version = '0.1.0'
+
+android {
+  namespace "dev.sourcium.shizuku"
+  defaultConfig {
+    versionCode 1
+    versionName '0.1.0'
+  }
+}
+
+repositories {
+  maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+  implementation 'dev.rikka.shizuku:api:13.1.5'
+  implementation 'dev.rikka.shizuku:provider:13.1.5'
+}
